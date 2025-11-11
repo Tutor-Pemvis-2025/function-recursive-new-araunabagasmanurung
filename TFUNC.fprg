@@ -4,9 +4,9 @@
         <attribute name="name" value="TFUNC"/>
         <attribute name="authors" value="Asus"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-11-11 09:02:22 PM"/>
+        <attribute name="saved" value="2025-11-11 09:07:30 PM"/>
         <attribute name="created" value="QXN1cztMQVBUT1AtQkhLOVNHUEY7MjAyNS0xMS0xMTswODoyMTo1MyBQTTsyNzcx"/>
-        <attribute name="edited" value="QXN1cztMQVBUT1AtQkhLOVNHUEY7MjAyNS0xMS0xMTswOTowMjoyMiBQTTsxOzI4NzU="/>
+        <attribute name="edited" value="QXN1cztMQVBUT1AtQkhLOVNHUEY7MjAyNS0xMS0xMTswOTowNzozMCBQTTsyOzI4ODA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -15,7 +15,7 @@
             <input variable="N"/>
             <assign variable="Hasil" expression="HitungRekursif(N)"/>
             <output expression="&quot;Bilangan yang dimasukkan (N): &quot;&amp;N" newline="True"/>
-            <output expression="&quot;Hasil perhitungan rekursif (1+2+...+&quot;&amp;N&amp;&quot;):&quot;&amp;Hasil" newline="True"/>
+            <output expression="&quot;Hasil perhitungan rekursif (1+2+...+&quot;&amp;N&amp;&quot;): &quot;&amp;Hasil" newline="True"/>
         </body>
     </function>
     <function name="HitungRekursif" type="Integer" variable="result">
